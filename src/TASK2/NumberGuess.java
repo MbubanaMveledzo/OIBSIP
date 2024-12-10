@@ -92,9 +92,11 @@ public class NumberGuess {
                     }
 
                 }
-TotalScore+=roundScore;
+                
+
 
             }
+            TotalScore+=roundScore;
             System.out.println("Game Over! Your total score is: " + TotalScore +"of 15" );
             System.out.println("--------------------------------------------------");
 
